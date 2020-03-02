@@ -1,4 +1,4 @@
-::davor key logger text file verändern  also klammern ersetzen durch pfad von beiden programmen
+::change the paths and save it as .bat
 
 @echo off
 
